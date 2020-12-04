@@ -1,6 +1,6 @@
 #menuFooter li{
     display: inline-block;
-    padding-left: 20px;
+    
 }
 .overlay {
     position: absolute;
@@ -9,21 +9,21 @@
     left: 0.9rem;
     right: 0;
     height: auto;
-    width: 89%;
     opacity: 0;
-    transition: .3s ease;
     background-color: rgb(27, 14, 14);
+   
+  
   }
   
  
-  #cont:hover .overlay {
+  #pictures:hover .overlay {
     opacity: 1;
   }
   .image {
     width: auto;
     height: auto;
   }
-  .icon {
+  .select{
     color: white;
     font-size: 50px;
     position: absolute;
@@ -33,10 +33,19 @@
     -ms-transform: translate(-50%, -50%);
     text-align: center;
   }
-  #login li
-  {
-      display:inline-block;
+  h2{
+    font-family: "Times New Roman", Times, serif;
+    text-shadow: 0 0 3px #ff9100, 0 0 5px #ff00c8;
+    text-decoration: underline;
   }
-  #social li {
-      display: inline-block;
+  h1{
+    text-shadow: 2px 2px #FF0000;
+    font-family: "Times New Roman", Times, serif;
+    color: #88b410;
+    font-size: 50px;
+    letter-spacing: -0.0002em;
   }
+  p{
+    border-left: #0c0e0d solid 5px;
+  }
+  
